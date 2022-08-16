@@ -37,7 +37,7 @@ while True:
         frame_skip = int((time.time() - start_time)/time_base)
         
         
-tello.take_off()
+tello.takeoff()
 time.sleep(5)
 tello.flip_right()
 time.sleep(5)
